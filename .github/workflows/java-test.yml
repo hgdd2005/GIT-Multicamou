@@ -24,4 +24,4 @@ jobs:
       - name: Run tests
         run: mvn test
 
-distribution: 'temurin'
+distribution: temurin
