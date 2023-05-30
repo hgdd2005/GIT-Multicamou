@@ -5,10 +5,10 @@ on:
     branches:
       - main
 
-distribution: temurin
 
 jobs:
   build:
+    distribution: adopt
 
     runs-on: ubuntu-latest
     steps:
