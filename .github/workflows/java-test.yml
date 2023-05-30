@@ -1,5 +1,5 @@
 name: Java Maven Test
-
+distribution: temurin
 on:
   push:
     branches:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        distribution: temurin
+
         uses: actions/setup-java@v2
 
       - name: Set up JDK 11
