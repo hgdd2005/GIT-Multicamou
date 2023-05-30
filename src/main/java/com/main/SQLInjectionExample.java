@@ -10,6 +10,6 @@ public class SQLInjectionExample {
 
     private static String getUserInput() {
         // 사용자로부터 입력 받는 로직
-        return "admin' --";;;
+        return "admin' --";
     }
 }
