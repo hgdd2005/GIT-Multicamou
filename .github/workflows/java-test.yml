@@ -10,17 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/setup-java@v2
 
-    - name: Set up JDK 11
-    - distribution: temurin
-      uses: actions/setup-java@v2
-      with:
-        java-version: 11
+      - name: Set up JDK 11
+        uses: actions/checkout@v2
+        distribution: temurin
+        with:
+          java-version: 11
 
-    - name: Build with Maven
-      run: 
+      - name: Build with Maven
+        run: mvn clean install
 
-    - name: Run tests
-      run:
+      - name: Run tests
+        run: mvn test
