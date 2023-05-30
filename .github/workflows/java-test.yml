@@ -15,7 +15,7 @@ jobs:
 
       - name: Set up JDK 11
         uses: actions/checkout@v2
-        distribution: temurin
+        distribution: 'temurin'
         with:
           java-version: 11
 
