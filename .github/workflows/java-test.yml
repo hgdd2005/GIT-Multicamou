@@ -5,10 +5,8 @@ on:
     branches:
       - main
 
-
 jobs:
   build:
-    distribution: adopt
 
     runs-on: ubuntu-latest
     steps:
@@ -25,3 +23,5 @@ jobs:
 
       - name: Run tests
         run: mvn test
+
+distribution: 'temurin'
