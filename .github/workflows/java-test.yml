@@ -1,6 +1,9 @@
 name: Java Maven Test
 
-on: push
+on:
+  push:
+    branch:
+      -main
 
 jobs:
   build:
