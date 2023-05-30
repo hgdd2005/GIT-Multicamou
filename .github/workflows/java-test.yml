@@ -19,7 +19,7 @@ jobs:
         java-version: 11
 
     - name: Build with Maven
-      run: echo "안녕하세요"
+      run: mvn clean install
 
     - name: Run tests
-      run: echo "안녕하세요"
+      run: mvn test
