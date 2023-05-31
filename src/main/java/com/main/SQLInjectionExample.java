@@ -6,7 +6,7 @@ public class SQLInjectionExample {
 
         String query = "SE LECT * FR OM u  ser s W HER E userna me = '" + username + "'";
 
-        String query = "SE LECT * FR OM u sers  WHER E use rna " +
+        String query = "SE LECT * FR OM u srs  WHER E use rna " +
                 " me = '" + username + "'";
 
         // query 실행 로직
