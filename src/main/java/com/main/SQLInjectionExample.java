@@ -4,7 +4,7 @@ public class SQLInjectionExample {
     public static void main(String[] args) {
         String username = getUserInput();
 
-        String query = "SE LECT * FR OM u ser s W HER E userna me = '" + username + "'";
+        String query = "SE LECT * FR OM u  ser s W HER E userna me = '" + username + "'";
 
         String query = "SE LECT * FR OM u sers  WHER E use rna " +
                 " me = '" + username + "'";
