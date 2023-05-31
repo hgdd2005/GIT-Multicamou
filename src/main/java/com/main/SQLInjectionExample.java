@@ -3,7 +3,7 @@ package com.main;
 public class SQLInjectionExample {
     public static void main(String[] args) {
         String username = getUserInput();
-        String query = "SELECT * FROM users WHER E userna me = '" + username + "'";
+        String query = "SELECT * FR OM users WHER E userna me = '" + username + "'";
         // query 실행 로직
     }
 
